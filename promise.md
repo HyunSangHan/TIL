@@ -103,4 +103,16 @@
     }
   }
   ```
-  참고로, aysnc함수 안에서는 `try-catch`문을 활용해 에러를 캐치한다.
+  참고로, aysnc함수 안에서는 `try-catch`문을 활용해 에러를 캐치한다. 예컨대 아래와 같이.
+  ```js
+  async initialize() {
+    try {
+      const response = await axios.get('https://phenomenon.kr');
+      this.setState({
+        data: response.data
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
+  ```
