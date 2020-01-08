@@ -1,0 +1,125 @@
+> [참고자료]  
+> https://leehwarang.github.io//docs/tech/2019-10-07-scope.html  
+> https://www.zerocho.com/category/JavaScript/post/5741d96d094da4986bc950a0  
+
+# 클로저(Closure)
+
+## 클로저가 뭐야?
+어떤 함수를 렉시컬 스코프 밖에서 호출해도, 원래 선언되었던 렉시컬 환경을 기억하고 접근할 수 있도록 하는 특성이다.
+- 자바스크립트를 조금 공부해본 사람이라면 클로저라는 걸 들어봤을 것이다. 자바스크립트의 중요한 개념 중 하나이지만, 사실 자바스크립트만의 개념은 아니다. 몇몇 언어에서는 클로저를 구현하는 게 불가능하거나 특수한 방식으로 함수를 작성해야 클로저를 만들 수 있다고 하는데, 자바스크립트에선 모든 함수가 자연스럽게 클로저가 된다.
+
+### 의도적으로 클로저를 쓴 예시 1
+```js
+function outerFunc(){
+  let name = 'HYUNSANG';
+
+  function innerFunc(){
+    console.log(`Welcome! ${name}`);
+  }
+
+  innerFunc();
+
+  return innerFunc;
+}
+
+let greeting = outerFunc();
+
+greeting();
+```
+
+#### 해설
+- greeting이라는 변수에는, outerFunc의 리턴값인 innerFunc이 담긴다. outerFunc이 이미 종료되어 콜스택에서 빠져 나갔는데도, `greeting()`이라고 실행해보면 여전히 name 변수에 잘 접근해 Welcome! HYUNSANG을 찍어주는 것을 확인할 수 있다.  
+
+### 의도적으로 클로저를 쓴 예시 2
+```js
+var counter = function() {
+  var count = 0;
+  function changeCount(number) {
+    count += number;
+  }
+  return {
+    increase: function() {
+      changeCount(1);
+    },
+    decrease: function() {
+      changeCount(-1);
+    },
+    show: function() {
+      alert(count);
+    }
+  }
+};
+var counterByClosure = counter();
+counterByClosure.increase();
+counterByClosure.show(); // 1
+counterByClosure.decrease();
+counterByClosure.show(); // 0
+```
+
+이는 아주 유명한 예시인, 클로저를 이용해 카운터 만들기이다.
+
+#### 해설
+- `count`를 비공개 변수로써 쓴 케이스다.
+- 비공개 변수이기 때문에 남들(사용자 포함)이 조작할 걱정이 없게 된다. 자바스크립트에서 사용자를 통제하기 위한 기본적인 방법이 바로 클로저인 것이다.
+
+### 실수로 클로저를 쓴 예시 1
+```js
+for (var i = 1; i <= 5; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, i * 1000)
+}
+```
+
+클로저를 제대로 모르는 상황에서는, 1초 간격으로 1~5를 출력하는 결과를 예상할 수도 있다. 하지만 이는 정답이 아니다. 1초 간격으로 6을 5번 출력한다! 왜 그럴까?
+
+#### 해설
+- var를 통해 선언한 변수는 함수레벨 스코프를 가지기 때문에, 여기 for문 안의 변수 `i`는 전역변수인 셈이다.
+- `setTimeout`이라는 함수 입장에서, `console.log(i)`를 찍을 때 렉시컬 환경에서 `i`를 찾으려 하게 된다.
+- setTimeout은 이 for문이 실행되고 나서 1000ms 후에 (비동기적으로) 최초로 동작한다. 그 때, 이미 for문은 동기적으로 반복문을 다 돌아 `i`가 6이 된 상태이다.(최초 실행 때부터 이미 `i`가 6이라는 것!)
+- 따라서 `setTimeout`의 `console.log(i)`는 렉시컬 환경에서 6이라는 값을 가진 `i`를 계속 찍어주게 되는 것이다.
+
+#### 어떻게 해결할까?
+- var 대신 let을 써서, 블록레벨 스코프가 되면 된다.
+- 또는, var를 계속 쓰고 싶다면 아래와 같이 함수를 이용해 스코프를 강제로 제어해도 된다.(강제로 함수레벨의 렉시컬 스코프를 셋팅함으로써 j값을 기억하여 접근할 수 있게 만드는 원리)
+
+  ```js
+  for (var i = 1; i <= 5; i++){
+    (function(j){
+      setTimeout(() => {
+        console.log(j)
+      }, j * 1000)
+    })(i);
+  }
+  ```
+
+### 실수로 클로저를 쓴 예시 2
+```js
+for (var i = 0; i <= 5; i++) {
+  $('#target' + i).on('click', function() {
+    alert(i);
+  });
+}
+```
+
+id가 target0~target5인 엘리먼트들에 각각 이벤트리스너가 연결되었고, 언뜻 보면 각 엘리먼트를 click하면 0~5의 alert가 쓸 것으로 기대된다. 하지만 모든 케이스에서 `alert(6)`가 실행된다. 왜 그러는 걸까?
+
+#### 해설
+- 이벤트리스너 안의 i는 외부 렉시컬 환경의 i(즉 6)를 계속 참조하고 있기 때문에 alert은 6이 된다.
+
+#### 어떻게 해결할까?
+- 앞선 예시와 같이, let을 써주거나 아래와 같이 function을 추가로 써서 스코프를 제한해주면 된다.
+- ES6 전까지는 이렇게 function을 추가로 써주는 게 가장 일반적인 해결법이었던 듯하다.
+  ```js
+  for (var i = 0; i < 5; i++) {
+    (function(j) {
+      $('#target' + j).on('click', function() {
+        alert(j);
+      });
+    })(i);
+  }
+  ```
+
+## 클로저의 단점
+- 잘못 사용하면 성능 문제와 메모리 문제가 발생할 수 있다! 비공개 변수에 대한 메모리 관리를 언제 해야할지 자바스크립트가 모르기 때문에 자칫 메모리 누수로 이어질 수 있다. 메모리 문제가 발생한다면 클로저를 의심해볼 수 있다.
+- 또한 scope chain을 거슬러 올라가는 행동을 하기 때문에 조금 느릴 수 있다.
