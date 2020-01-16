@@ -53,3 +53,6 @@
 
 - 이 npm script에 커스텀 명령어 `"transfile" : "babel"` 써두고 `npm run transfile`을 실행하면, 먼저 `./node_modules`에서 babel을 찾고
 거기서 못찾으면 `전역`으로 설치한 babel을 찾아 실행하게 된다.
+
+#### npx는 뭐야?
+매번 `./node_modules/.bin/babel app.js`와 같이 쓰긴 힘드니, `npx babel app.js`라고 대체해서 쓸 수 있다. npm을 깔았으면 npx는 쓸 수 있게 된다.
