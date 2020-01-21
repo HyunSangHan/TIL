@@ -1,13 +1,9 @@
 ---
 title: "About me"
 template: "page"
-socialImage: "/media/image-2.jpg"
+# socialImage: "/media/image-2.jpg"
 ---
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
-
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
-
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+회사에서는 기획하고 집에서는 개발을 공부하고 있는 한현상입니다.  
+2016년 2월 말에 군복무를 마치고 그 해 3월부터 지금까지 *네이버*에서 일했습니다.  
+서울대학교 *멋쟁이사자처럼*이라는 동아리에서 웹개발을 하고 있습니다.   
+[더보기 >](http://phenomenon.kr)
