@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'http://phenomenon.kr',
+  url: 'https://tillog.netlify.com',
   pathPrefix: '/',
   title: '개발하는 기획자의 개발 블로그',
   subtitle: 'TIL을 기록하는 Tillog입니다.',
   copyright: 'Hyunsang Han © All rights reserved.',
   disqusShortname: 'tillog',
-  postsPerPage: 4,
+  postsPerPage: 8,
   googleAnalyticsId: 'UA-156691440-1',
   useKatex: false,
   menu: [

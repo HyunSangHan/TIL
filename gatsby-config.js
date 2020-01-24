@@ -16,7 +16,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: siteConfig.url,
+        sitemap: `${siteConfig.url}/sitemap.xml`,
+        policy: [{ userAgent: '*', disallow: ['/pages/']}, { userAgent: 'Googlebot-Image', disallow: '/' }]
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: siteConfig.googleAnalyticsId,
       },
@@ -177,6 +185,7 @@ module.exports = {
           }
         `,
         output: '/sitemap.xml',
+        exclude: ['/admin', '/tag/*', '/category/*'],
         serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
           url: site.siteMetadata.siteUrl + edge.node.path,
           changefreq: 'daily',
