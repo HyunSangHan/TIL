@@ -7,6 +7,7 @@ slug: "event-loop"
 category: "Javascript"
 tags:
   - "Javascript"
+  - "Event"
 description: "자바스크립트는 싱글쓰레드 기반으로 동작한다는 말을 수 차례 들어보았지만 그 작동 원리를 잘 이해하고 있진 못했다. 그래서 이에 대해 공부해보기로 했다."
 # socialImage: "/media/image-3.jpg"
 ---
