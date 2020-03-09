@@ -73,5 +73,7 @@ document.querySelector('#input').addEventListener('input', function(e) {
 });
 ```
 
+---
+
 > [참고자료]  
 > https://webclub.tistory.com/607
