@@ -1,12 +1,12 @@
 ---
-title: Javascript의 전역 객체
+title: JavaScript의 전역 객체
 date: "2020-03-12T21:24:32"
 template: "post"
 draft: false
 slug: "global-object"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
   - "Browser"
   - "NodeJS"
   - "DOM"

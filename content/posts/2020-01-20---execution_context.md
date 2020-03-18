@@ -4,9 +4,9 @@ date: "2020-01-20T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "execution-context"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
 description: "자바스크립트 엔진은 코드를 실행하기 위하여 실행에 필요한 여러가지 정보를 알고 있어야 한다. 실행 컨텍스트는 실행 가능한 코드를 형상화하고 구분하는 추상적인 개념이다. 하지만 물리적으로는 '객체'의 형태를 가지며, Variable Object, Scope Chain, this Value라고 하는 3가지 프로퍼티를 소유한다."
 # socialImage: "/media/image-3.jpg"
 ---

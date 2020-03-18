@@ -4,9 +4,9 @@ date: "2020-01-21T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "event-loop"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
   - "Event"
 description: "자바스크립트는 싱글쓰레드 기반으로 동작한다는 말을 수 차례 들어보았지만 그 작동 원리를 잘 이해하고 있진 못했다. 그래서 이에 대해 공부해보기로 했다."
 # socialImage: "/media/image-3.jpg"
@@ -72,6 +72,6 @@ first
 ---
 
 > [참고자료]  
-> https://www.zerocho.com/category/Javascript/post/597f34bbb428530018e8e6e2  
+> https://www.zerocho.com/category/JavaScript/post/597f34bbb428530018e8e6e2  
 > https://asfirstalways.tistory.com/362  
 > https://mygumi.tistory.com/173  

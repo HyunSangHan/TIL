@@ -4,9 +4,9 @@ date: "2020-01-29T21:12:32.169Z"
 template: "post"
 draft: false
 slug: "event-bubbling-capturing-delegation"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
   - "Event"
 description: "이론적으로만 알고 있었던 개념인데 실전에서 드디어 만나게 되어 반가운 마음에 이벤트 전파(버블링, 캡쳐링), 그리고 그를 이용한 위임에 대해 정리해보기로 했다."
 ---

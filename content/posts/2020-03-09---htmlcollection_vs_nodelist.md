@@ -4,9 +4,9 @@ date: "2020-03-09T21:24:32"
 template: "post"
 draft: false
 slug: "htmlcollection-nodelist"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
   - "Browser"
   - "DOM"
   - "Fronted Basic"

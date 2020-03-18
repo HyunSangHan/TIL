@@ -4,9 +4,9 @@ date: "2020-01-11T10:46:37.121Z"
 template: "post"
 draft: false
 slug: "strict-mode"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
   - "Dev-environment"
 description: "ES5가 나온 후 하위 호환성 이슈 때문에 변경사항 대부분이 디폴트로는 활성화되지 않도록 설계되었다. 대신 'use strict'라는 특별한 지시자를 사용했을 때에만 활성화되게 해두면서 엄격모드라는 게 생겼다. 엄격모드를 실행하면 스크립트가 모던한 방식으로 작동하게 된다."
 # socialImage: ""

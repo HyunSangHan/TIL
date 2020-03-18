@@ -4,9 +4,9 @@ date: "2020-01-28T22:40:32.169Z"
 template: "post"
 draft: false
 slug: "event-object"
-category: "Javascript"
+category: "JavaScript"
 tags:
-  - "Javascript"
+  - "JavaScript"
   - "Event"
 description: "DOM에 대한 이벤트에 연결한 함수는 이벤트 객체를 매개변수로 사용할 수 있는데, 이벤트 객체에는 여러 메소드와 정보가 들어있다. 이벤트를 제어할 수 있게 해주는 두 가지 요소는 이벤트리스너와 콜백이다."
 ---
