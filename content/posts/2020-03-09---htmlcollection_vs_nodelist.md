@@ -9,7 +9,7 @@ tags:
   - "JavaScript"
   - "Browser"
   - "DOM"
-  - "Fronted Basic"
+  - "Frontend Basic"
 description: "DOM을 조작할 때 접하게 되는 유사배열들이다. Live하냐 Static하냐의 차이가 중요한데, 이를 인지하고 있지 못하면 언젠간 버그를 마주칠 수밖에 없겠다."
 ---
 

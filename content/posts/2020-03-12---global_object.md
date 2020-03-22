@@ -11,7 +11,7 @@ tags:
   - "NodeJS"
   - "DOM"
   - "BOM"
-  - "Fronted Basic"
+  - "Frontend Basic"
 description: "자바스크립트의 전역 객체는 모든 객체의 최상위 객체를 의미한다. 브라우저 환경에서는 window, 노드 환경에서는 global이 전역 객체이다."
 ---
 

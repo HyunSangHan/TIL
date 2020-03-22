@@ -4,9 +4,9 @@ date: "2019-11-19T22:12:03.284Z"
 template: "post"
 draft: false
 slug: "animation"
-category: "Fronted Basic"
+category: "Frontend Basic"
 tags:
-  - "Fronted Basic"
+  - "Frontend Basic"
   - "Styling"
   - "Css"
 description: "JavaScript 애니메이션을 사용하면 JavaScript 특성상 하나의 스레드에서 실행되기 때문에 처리할 양이 많으면 애니메이션이 끊겨 보일 수 있다. 반면 CSS 애니메이션은 다른 스레드에서 작동되기 때문에 훨씬 부드럽게 보일 수 있다. 그럼에도 애니메이션에 동적인 효과를 줘야하거나, CSS로 표현할 수 없는 속성을 지원하기 위해서는 JS 애니메이션이 필요하다."
