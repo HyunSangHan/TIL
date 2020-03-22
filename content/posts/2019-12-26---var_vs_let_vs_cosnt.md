@@ -7,6 +7,7 @@ slug: "var-let-const"
 category: "JavaScript"
 tags:
   - "JavaScript"
+  - "Comparison"
 description: "var는 함수레벨, let과 const는 블록레벨 스코프를 가진다. var와 let은 재할당이 가능하지만 const는 재할당이 불가하다."
 # socialImage: "/media/image-3.jpg"
 ---
