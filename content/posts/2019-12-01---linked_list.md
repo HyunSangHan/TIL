@@ -72,8 +72,7 @@ def insertFirst(self, data):
   new_node = Node(data)       # 새로운 노드 생성
   temp_node = self.head       # 기존 헤드를 잠시 보관
   self.head = new_node        # 헤드를 새로운 노드로 변경
-  self.head.next = temp_node  # 새로 생성된 헤드의 링크를
-                              # 기존 헤드의 링크로 변경
+  self.head.next = temp_node  # 새로 생성된 헤드의 링크를 기존 헤드의 링크로 변경
   self.list_size += 1
 ```
 
@@ -95,7 +94,7 @@ def selectNode(self, num):
 def insertMiddle(self, num, data):
   if self.head.next == None:
     # 헤더가 만들어진 직후에 메서드를 사용하는 경우
-    insertLast(data)
+    self.insertLast(data)
     return
   node = self.selectNode(num)
   new_node = Node(data)
