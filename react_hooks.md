@@ -110,7 +110,7 @@ const User = () => {
 위에서 배운 useState와 useEffect를 함께 쓰는 경우와 비교해서 사용법을 정리해보겠다.
 - useMemo를 쓴다면 state 선언과 동시에, 무엇이 업데이트 될 때 무엇을 연산할 것인지를 정의한다.(반면, useState와 useEffect는 필연적으로 코드가 분리)
 - 선언과 동시에 쓴다는 것 외에는 useEffect와 비슷한 방식으로 코드를 작성하면 된다. 첫번째 인자에 원하는 연산이 들어간 함수, 두번째 인자에는 배열 형태로 update되는지 지켜볼 state를 넣어준다.
-- 만일 두번째 인자를 넣어주지 않으면 
+- 만일 두번째 인자를 넣어주지 않으면 컴포넌트가 화면에 렌더링될 때마다 useEffect가 실행되어버린다. 특히, useEffect가 state를 변경하는 역할을 하고 있다면 그 때문에 리렌더링이 될 테니 무한루프에 빠질 것이다.
 ​
 ## 그밖에
 `useContext`, `useReducer`, `useCallback`, `useRef` 등 많은 Hook이 있고, 심지어 `커스텀 Hook`도 만들 수 있다.
