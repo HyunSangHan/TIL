@@ -41,7 +41,7 @@ description: "자바스크립트 런타임은 어떻게 구성되어있고 싱�
 (참고로, 계속 콜스택이 위로 쌓여가기만 할 경우 콜스택의 한정된 공간의 크기를 넘어서게 되는데, 이를 `Stack Overflow`라고 한다.)
 
 ## Web APIs
-참고로, 자바스크립트 엔진은 싱글 쓰레드지만 Web APIs는 멀티 쓰레드가 가능하다. 콜스택으로부터 콜백과 함께 `setTimeout` 함수를 받았다면, 일정 시간(setTimeout의 2번째 인자)이 지난 후 Task Queue로 콜백을 넘겨준다.
+참고로, 자바스크립트 엔진은 싱글 쓰레드지만 Web APIs는 멀티 쓰레드가 가능하다. 콜스택으로부터 콜백과 함께 `setTimeout` 함수를 받았다면, 일정 시간(setTimeout의 2번째 인자)이 지난 후 Task Queue로 콜백을 넘겨준다. Background라고도 불린다.
 
 ## Task Queue
 Web APIs로부터 넘겨받은 콜백을 줄세워 놓기 때문에 Callback Queue라고도 불린다. _FIFO_ 의 순서로 대기한다.
