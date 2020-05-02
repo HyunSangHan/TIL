@@ -10,6 +10,7 @@ tags:
   - "DOM"
   - "Browser"
   - "Css"
+  - "Frontend Basic"
 description: "수정된 Render tree를 다시 렌더링하는 과정에서 발생한다. Reflow는 위치와 크기를 계산, Repaint는 시각적인 요소를 표현하는 과정이다. 당연히 필요한 과정이지만 효율적으로 컨트롤하지 못하면 웹애플리케이션의 성능을 떨어뜨리는 주된 요인이 된다."
 ---
 

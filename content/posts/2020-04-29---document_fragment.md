@@ -9,6 +9,7 @@ tags:
   - "JavaScript"
   - "DOM"
   - "Browser"
+  - "Frontend Basic"
 description: "여러 노드를 하나의 그룹으로 감싸 다른 곳으로 전달하게 해주는 Wrapper 노드이다. 리액트에서의 Fragment와도 의미상 비슷한 개념이라고 볼 수 있겠다."
 ---
 
