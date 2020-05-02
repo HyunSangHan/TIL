@@ -8,6 +8,7 @@ category: "JavaScript"
 tags:
   - "JavaScript"
   - "Event"
+  - "Performance"
 description: "연이어 발생하는 이벤트에 의해 무의미한 리소스 낭비가 일어나지 않게끔 방지하는 기법들이다. 쓰로틀링은 특정 텀을 두고 주기적으로만 콜백함수를 실행하는 방법으로 scroll 이벤트에 많이 쓰이고, 디바운싱은 연이은 호출을 이른바 하나로 퉁치는 방법으로 ajax 통신에 많이 쓰인다."
 ---
 

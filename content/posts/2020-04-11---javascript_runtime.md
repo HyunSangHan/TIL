@@ -12,6 +12,8 @@ tags:
   - "Event"
   - "Async"
   - "Concept"
+  - "Frontend Basic"
+  - "Performance"
 description: "자바스크립트 런타임은 어떻게 구성되어있고 싱글쓰레드의 장단점, 그리고 자바스크립트에서 왜 그렇게 비동기가 중요한 개념인지 알아보자."
 ---
 

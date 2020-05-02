@@ -9,6 +9,7 @@ tags:
   - "Concept"
   - "Computer Science"
   - "JavaScript"
+  - "Performance"
 description: "더 이상 사용되지 않을 변수와 함수를 메모리 힙에서 제거함으로써 메모리를 효율적으로 관리하는데 이 과정을 Garbage Collection이라고 한다."
 ---
 > (가비지 컬렉션이라는 것은 보편적인 개념이지만, 이 글에서는 JavaScript를 중심으로 작성하였습니다.)

@@ -11,6 +11,7 @@ tags:
   - "Css"
   - "JavaScript"
   - "Frontend Basic"
+  - "Performance"
 description: "HTML을 파싱하여 DOM tree를, CSS를 파싱하여 CSSOM tree를 만들고 이 둘을 조합해 Render tree를 만든다. 이를 배치하고 그리는 과정이 바로 이전 포스트에서 다룬 Reflow와 Repaint이다."
 ---
 

@@ -8,6 +8,7 @@ category: "Algorithm"
 tags:
   - "Computer Science"
   - "Algorithm"
+  - "Performance"
 description: "알고리즘의 효율성을 논하게 되는 때는 입력의 크기가 충분히 클 때이다. 이 때, 점근적 분석을 하게 되며 이를 통해 나타난 시간과 입력의 함수 관계를 '시간 복잡도'라고 한다."
 # socialImage: "/media/image-3.jpg"
 ---
