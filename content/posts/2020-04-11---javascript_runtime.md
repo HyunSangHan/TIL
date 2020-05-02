@@ -30,7 +30,7 @@ description: "자바스크립트 런타임은 어떻게 구성되어있고 싱�
 # 자바스크립트 런타임
 자바스크립트 엔진은 싱글 쓰레드의 장점을 취하고, 자바스크립트 런타임 차원에서는 `Web APIs`와 `Task Queue`, `Event Loop`를 통해 싱글 쓰레드의 단점을 보완한다. 이벤트 루프 기반의 Non-blocking I/O를 지원하는 것이다.
 
-![JavaScript Runtime](/media/js-runtime.png)
+![JavaScript Runtime](/media/js_runtime.png)
 
 ## JavaScript Engine
 ### Heap
