@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://tillog.netlify.com',
   pathPrefix: '/',
-  title: '개발하는 기획자의 개발 블로그',
+  title: '한현상 블로그',
   subtitle: 'TIL을 기록하는 Tillog입니다.',
   copyright: 'Hyunsang Han © All rights reserved.',
   disqusShortname: 'tillog',
@@ -31,7 +31,7 @@ module.exports = {
   author: {
     name: 'Hyunsang Han',
     photo: '/photo.jpg',
-    bio: 'A product manager who also codes',
+    bio: 'Frontend developer who was product manager',
     contacts: {
       email: 'gustkd3@gmail.com',
       facebook: 'gustkd3',
