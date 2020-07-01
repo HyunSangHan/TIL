@@ -9,6 +9,8 @@ tags:
   - "Database"
   - "Concept"
   - "Comparison"
+  - "SQL"
+  - "RDB"
 description: "SQL과 NoSQL 데이터베이스의 차이점과 각 장단점을 알아본다. 사실 SQL은 쿼리 언어지 데이터베이스 자체를 나타내는 것은 아닌데, 관용적으로 관계형 데이터베이스를 의미하기도 한다. 참고로 NoSQL은 Not only SQL을 의미한다고 알려져있다."
 ---
 
