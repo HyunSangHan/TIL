@@ -31,6 +31,9 @@ description: "메시지를 송신하는 역할을 하는 프로듀서, 수신하
 #### 이전 글
 https://tillog.netlify.app/posts/what-is-kafka
 
+#### 다음 글
+https://tillog.netlify.app/posts/kafka-infra
+
 ---
 
 > [참고자료]
