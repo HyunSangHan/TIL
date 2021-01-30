@@ -31,10 +31,10 @@ description: "카프카의 정보를 관리해주는 Zookeeper, Avro 기반의 �
 ---
 
 #### 이전 글
-https://tillog.netlify.app/posts/kafka-producer-broker-consumer
+[(2) Producer, Broker, Consumer](https://tillog.netlify.app/posts/kafka-producer-broker-consumer)
 
 #### 다음 글
-https://tillog.netlify.app/posts/kafka-topic-partition
+[(4) Topic과 Partition](https://tillog.netlify.app/posts/kafka-topic-partition)
 
 ---
 

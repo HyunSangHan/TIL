@@ -29,12 +29,12 @@ description: "메시지를 송신하는 역할을 하는 프로듀서, 수신하
 ---
 
 #### 이전 글
-https://tillog.netlify.app/posts/what-is-kafka
+[(1) Kafka란?](https://tillog.netlify.app/posts/what-is-kafka)
 
 #### 다음 글
-https://tillog.netlify.app/posts/kafka-infra
+[(3) 관련 인프라](https://tillog.netlify.app/posts/kafka-infra)
 
 ---
 
-> [참고자료]
+> [참고자료]  
 > 고승범 외(2018). 카프카, 데이터 플랫폼의 최강자. 책만.  

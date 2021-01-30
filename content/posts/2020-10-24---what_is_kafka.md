@@ -45,8 +45,8 @@ description: "스트리밍 데이터를 사용하기 위해 만들어진 Pub-Sub
 ---
 
 #### 다음 글
-https://tillog.netlify.app/posts/kafka-producer-broker-consumer
+[(2) Producer, Broker, Consumer](https://tillog.netlify.app/posts/kafka-producer-broker-consumer)
 
 ---
-> [참고자료]
+> [참고자료]  
 > 고승범 외(2018). 카프카, 데이터 플랫폼의 최강자. 책만.  
