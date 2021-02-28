@@ -25,6 +25,9 @@ description: "고가용성을 위해 파티션을 복제해두는 걸 리플리�
 #### 이전 글
 [(4) Topic과 Partition](https://tillog.netlify.app/posts/kafka-topic-partition)
 
+#### 다음 글
+[(6) Offset과 Consumer Group, 그리고 Lag](https://tillog.netlify.app/posts/kafka-offset)
+
 ---
 
 > [참고자료]
