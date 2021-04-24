@@ -49,6 +49,9 @@ example.topic 3          6397170269      6397170495      226             consume
 #### 이전 글
 [(5) Replication과 ISR](https://tillog.netlify.app/posts/kafka-replication-isr)
 
+#### 다음 글
+[(7) Offset Commit](https://tillog.netlify.app/posts/kafka-offset-commit)
+
 ---
 
 > [참고자료]
