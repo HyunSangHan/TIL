@@ -30,6 +30,9 @@ description: "자동 커밋과 수동 커밋으로 나뉘고, 수동 커밋은 �
 #### 이전 글
 [(6) Offset과 Consumer Group, 그리고 Lag](https://tillog.netlify.app/posts/kafka-offset)
 
+#### 다음 글
+[(8) 응용 기술](https://tillog.netlify.app/posts/kafka-applied-technology)
+
 ---
 
 > [참고자료]
