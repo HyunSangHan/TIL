@@ -7,6 +7,7 @@ slug: "kafka-infra"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "카프카의 정보를 관리해주는 Zookeeper, Avro 기반의 스키마를 관리하여 스키마를 강제해주는 Schema Registry 등이 대표적으로 카프카와 관련된 인프라이다."
 ---
 

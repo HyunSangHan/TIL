@@ -7,6 +7,7 @@ slug: "kafka-topic-partition"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "카프카 내에서 데이터를 구분하기 위한 단위를 토픽이라 한다. 토픽은 분할되어 Partition이라는 형태로 여러 브로커에 분산 저장된다."
 ---
 

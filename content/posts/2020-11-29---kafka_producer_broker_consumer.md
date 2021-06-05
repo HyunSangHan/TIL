@@ -7,6 +7,7 @@ slug: "kafka-producer-broker-consumer"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "메시지를 송신하는 역할을 하는 프로듀서, 수신하는 역할을 하는 컨슈머, 그리고 그 둘 사이의 중간 매개체 역할을 하는 브로커로 이루어져있다."
 ---
 

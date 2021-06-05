@@ -7,6 +7,7 @@ slug: "kafka-replication-isr"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "고가용성을 위해 파티션을 복제해두는 걸 리플리케이션이라고 하며, 그로 인해 리더(원본) 파티션과 팔로워(복제본) 파티션이 나뉜다. 리더와 싱크가 맞는 리플리카를 ISR이라고 하여 리더 후보로 삼는다."
 ---
 

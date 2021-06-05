@@ -7,6 +7,7 @@ slug: "kafka-offset"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "각 파티션마다 메시지가 저장되는 위치를 오프셋이라고 한다. 컨슈머 그룹 단위로 이 오프셋으로 줄세워진 레코드를 순차적으로 컨슘하게 되며, 컨슈머가 얼마나 더 컨슘할 게 남았는지가 Lag이다."
 ---
 

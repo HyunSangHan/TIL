@@ -7,6 +7,7 @@ slug: "what-is-kafka"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "스트리밍 데이터를 사용하기 위해 만들어진 Pub-Sub 모델의 메시지 큐. 고성능, 고가용성의 메시지 애플리케이션이며 클러스터로 구성되어 분산환경에 특화되어 있다."
 ---
 

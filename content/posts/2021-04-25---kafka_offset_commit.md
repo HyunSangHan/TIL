@@ -7,6 +7,7 @@ slug: "kafka-offset-commit"
 category: "Kafka"
 tags:
   - "Kafka"
+  - "Apache"
 description: "자동 커밋과 수동 커밋으로 나뉘고, 수동 커밋은 동기 커밋과 비동기 커밋으로 나뉜다. 각각 상황과 용도에 맞도록 적절하게 활용해야 성능과 가용성 차원에서 이슈가 없다."
 ---
 
