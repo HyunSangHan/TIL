@@ -27,7 +27,6 @@ description: "메시지를 송신하는 역할을 하는 프로듀서, 수신하
 - Broker를 polling해서 특정 _토픽_ 으로부터 메시지를 가져온다.
 - 한 토픽에 대해 여러 컨슈머가 접근 가능하다.(멀티 컨슈머)
 
----
 
 > [참고자료]  
 > 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
@@ -35,7 +34,7 @@ description: "메시지를 송신하는 역할을 하는 프로듀서, 수신하
 ---
 
 #### 이전 글
-[(1) Kafka란?](https://tillog.netlify.app/posts/what-is-kafka)
+[(1) Kafka란?](/posts/what-is-kafka)
 
 #### 다음 글
-[(3) 관련 인프라](https://tillog.netlify.app/posts/kafka-infra)
+[(3) 관련 인프라](/posts/kafka-infra)

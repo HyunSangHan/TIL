@@ -29,7 +29,6 @@ description: "카프카의 정보를 관리해주는 Zookeeper, Avro 기반의 �
 - 토픽 생성, 삭제도 가능하고 ISR, Leader 확인이 가능하다.
 - 컨슈머 그룹의 offset과 lag도 확인 가능하다.
 
----
 
 > [참고자료]  
 > 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
@@ -38,10 +37,7 @@ description: "카프카의 정보를 관리해주는 Zookeeper, Avro 기반의 �
 ---
 
 #### 이전 글
-[(2) Producer, Broker, Consumer](https://tillog.netlify.app/posts/kafka-producer-broker-consumer)
+[(2) Producer, Broker, Consumer](/posts/kafka-producer-broker-consumer)
 
 #### 다음 글
-[(4) Topic과 Partition](https://tillog.netlify.app/posts/kafka-topic-partition)
-
-#### 관련 글
-[Zookeeper란?](https://tillog.netlify.app/posts/what-is-zookeeper)
+[(4) Topic과 Partition](/posts/kafka-topic-partition)

@@ -43,7 +43,6 @@ description: "스트리밍 데이터를 사용하기 위해 만들어진 Pub-Sub
 - 브로커의 역할이 Simple함: 메시지 필터, 재전송 등의 일은 브로커가 아니라  프로듀서, 컨슈머 단에서 함
 - Batch처리: 프로듀서는 일정 크기만큼 메시지를 모아서 전송 가능하고, 컨슈머는 최소 크기만큼 메시지를 모아서 조회 가능
 
----
 
 > [참고자료]  
 > 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
@@ -51,4 +50,4 @@ description: "스트리밍 데이터를 사용하기 위해 만들어진 Pub-Sub
 ---
 
 #### 다음 글
-[(2) Producer, Broker, Consumer](https://tillog.netlify.app/posts/kafka-producer-broker-consumer)
+[(2) Producer, Broker, Consumer](/posts/kafka-producer-broker-consumer)

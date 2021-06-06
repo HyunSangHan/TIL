@@ -21,7 +21,6 @@ description: "고가용성을 위해 파티션을 복제해두는 걸 리플리�
 - `In-Sync Replicas`. 리더와 싱크가 완전히 맞는 리플리카 그룹이다. **리더 파티션이 될 수 있는 후보**의 의미를 가진다고 보면 된다.
 - 싱크가 완전히 맞는 팔로워만 신뢰하겠다는 컨셉이다.
 
----
 
 > [참고자료]
 > 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
@@ -29,7 +28,7 @@ description: "고가용성을 위해 파티션을 복제해두는 걸 리플리�
 ---
 
 #### 이전 글
-[(4) Topic과 Partition](https://tillog.netlify.app/posts/kafka-topic-partition)
+[(4) Topic과 Partition](/posts/kafka-topic-partition)
 
 #### 다음 글
-[(6) Offset과 Consumer Group, 그리고 Lag](https://tillog.netlify.app/posts/kafka-offset)
+[(6) Offset과 Consumer Group, 그리고 Lag](/posts/kafka-offset)
