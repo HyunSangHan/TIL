@@ -31,14 +31,17 @@ description: "카프카의 정보를 관리해주는 Zookeeper, Avro 기반의 �
 
 ---
 
+> [참고자료]  
+> 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
+> https://geonyeongkim-development.tistory.com/5  
+
+---
+
 #### 이전 글
 [(2) Producer, Broker, Consumer](https://tillog.netlify.app/posts/kafka-producer-broker-consumer)
 
 #### 다음 글
 [(4) Topic과 Partition](https://tillog.netlify.app/posts/kafka-topic-partition)
 
----
-
-> [참고자료]  
-> 고승범 외(2018). 카프카, 데이터 플랫폼의 최강자. 책만.  
-> https://geonyeongkim-development.tistory.com/5  
+#### 관련 글
+[Zookeeper란?](https://tillog.netlify.app/posts/what-is-zookeeper)

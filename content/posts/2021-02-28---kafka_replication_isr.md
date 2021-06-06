@@ -23,14 +23,13 @@ description: "고가용성을 위해 파티션을 복제해두는 걸 리플리�
 
 ---
 
+> [참고자료]
+> 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
+
+---
+
 #### 이전 글
 [(4) Topic과 Partition](https://tillog.netlify.app/posts/kafka-topic-partition)
 
 #### 다음 글
 [(6) Offset과 Consumer Group, 그리고 Lag](https://tillog.netlify.app/posts/kafka-offset)
-
----
-
-> [참고자료]
-> 고승범 외(2018). 카프카, 데이터 플랫폼의 최강자. 책만.  
-  

@@ -44,6 +44,11 @@ example.topic 3          6397170269      6397170495      226             consume
 - Log end offset이란, 각 파티션의 실제 마지막 offset 값이다.
 - Lag이란, 이 두 값의 차이이다. Lag이 늘어난다면 메시지의 생산 속도를 컨슘 속도가 못따라가고 있다는 의미다. 
 
+---
+
+> [참고자료]
+> 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
+> https://steemit.com/kr/@yjiq150/kafka-consumer-offset-reset  
 
 ---
 
@@ -52,10 +57,3 @@ example.topic 3          6397170269      6397170495      226             consume
 
 #### 다음 글
 [(7) Offset Commit](https://tillog.netlify.app/posts/kafka-offset-commit)
-
----
-
-> [참고자료]
-> 고승범 외(2018). 카프카, 데이터 플랫폼의 최강자. 책만.  
-> https://steemit.com/kr/@yjiq150/kafka-consumer-offset-reset  
-  

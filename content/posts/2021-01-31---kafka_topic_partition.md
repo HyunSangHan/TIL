@@ -42,6 +42,3 @@ description: "카프카 내에서 데이터를 구분하기 위한 단위를 토
 
 #### 다음 글
 [(5) Replication과 ISR](https://tillog.netlify.app/posts/kafka-replication-isr)
-
----
-  
