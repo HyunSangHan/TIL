@@ -17,6 +17,7 @@ description: "카프카의 정보를 관리해주는 Zookeeper, Avro 기반의 �
 
 #### Zookeeper
 -  분산 메세지 큐의 정보를 관리해 주는 역할을 한다. Kafka를 띄우기 위해서는 Zookeeper가 반드시 실행되어야 한다.
+- 참고: [ZooKeeper란?](/posts/what-is-zookeeper)
 
 #### Schema Registry
 - Producer와 Consumer가 주고 받으려는 메시지의 스키마를 서로 알게 해주고 호환을 강제한다.
