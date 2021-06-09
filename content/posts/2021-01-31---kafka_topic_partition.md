@@ -21,7 +21,7 @@ description: "카프카 내에서 데이터를 구분하기 위한 단위를 토
 - _Offset_ 이라는 개념이 있어서, 파티션 내에서 메시지의 순서는 보장된다.
 - _컨슈머 그룹_ 에서 컨슈머가 추가 또는 제거되면 파티션의 리밸런싱이 일어난다.
 - 메시지는 key에 따라 각자 다른 partition으로 assign되게 할 수 있으므로 토픽 내 메시지의 순서가 중요하다면 key를 이용하면 좋다.
-
+  - key를 지정하지 않으면 round-robin 방식으로 할당된다.
 
 #### [참고] Brokers Skew
 - Kafka Manager를 사용하다보면 `Brokers Skew`라는 걸 보게 되곤 한다.
