@@ -9,8 +9,11 @@ tags:
   - "Kafka"
   - "Apache"
   - "How to use"
+  - "Case study"
 description: "[Kafka Case Study] 1편 - Consumer 비즈니스 로직을 변경하기로 한 등등의 사유로, 예전 레코드부터 다시 가져와야 한다면?"
 ---
+
+#### [Kafka Case Study] 1편 - 예전 레코드부터 다시 가져와야 한다면?
 
 특정 Topic을 컨슘하는 Consumer를 개발해서 deploy했다고 가정하자. 그 컨슈머는 실시간으로 메시지를 가져와서 내부적인 비즈니스 로직을 처리하고 있을 것이다.
 
@@ -47,9 +50,13 @@ kafka-consumer-groups.sh --bootstrap-server <host:port> --group <group_id> --top
 
 
 ## 그밖에 다른 방법
-consumer group id를 유지한 상태에서 offset만 변경하고 싶다면 위와 같이 offset을 reset해줘야 하지만, 그렇지 않아도 된다면 consumer group id를 수정하는 방법도 있다. consumer group id를 새로 지정하면, 설정해둔 옵션(`earliest` 혹은 `latest`)에 따라 새로운 컨슈머 그룹이라고 인지하여 offset이 reset되게 된다.(사실 reset이 아니라 set이 맞는 표현이겠다.)
+consumer group id를 유지한 상태에서 offset만 변경하고 싶다면 위와 같이 offset을 reset해줘야 하지만, 그렇지 않아도 된다면 consumer group id를 수정하는 방법도 있다. consumer group id를 새로 지정하면, 설정해둔 옵션(`earliest` 혹은 `latest`. 디폴트는 `latest`.)에 따라 새로운 컨슈머 그룹이라고 인지하여 offset이 reset되게 된다.(사실 reset이 아니라 set이 맞는 표현이겠다.)  
 
----
 
 > [참고자료]  
 > 고승범 외(2018), _카프카: 데이터 플랫폼의 최강자_, 책만.  
+
+---
+
+#### 다음 글
+[[Kafka Case Study] 2편 - Consumer에서의 데이터 처리중 Exception이 발생한다면?](/posts/kafka-consumer-exception)
