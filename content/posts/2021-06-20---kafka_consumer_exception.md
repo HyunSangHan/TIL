@@ -15,7 +15,7 @@ description: "[Kafka Case Study] 2편 - Consumer에서의 데이터 처리중 Ex
 
 #### [Kafka Case Study] 2편 - Consumer에서의 데이터 처리중 Exception이 발생한다면?
 
-한 Consumer를 개발해서 배포했다고 가정하자. 그런데 그 컨슈머의 비즈니스 로직에 결함이 있는 등의 이유로, 계속해서 Runtime Exception이 발생한다면? 물론 비즈니스 로직의 결함을 해결해서 배포하면 대부분 해결되겠지만, 그 해결과정까지 시간이 소요되고 그동안 서비스 장애가 발생할 수 있다. 이를 막기 위해 미리 방어 로직을 심어둘 수 있다.
+한 Consumer를 개발해서 배포했다고 가정하자. 그런데 그 컨슈머의 비즈니스 로직에 결함이 있는 등의 이유로, 계속해서 Runtime Exception이 발생한다면? 물론 비즈니스 로직의 결함을 해결해서 배포하면 원천적인 해결이 이루어지겠지만, 그 해결과정까지 시간이 소요되고 그동안 서비스 장애가 발생할 수 있다. 이를 막기 위해 미리 방어 로직을 심어둘 수 있다.
 
 > 한 메시지 처리만 계속 실패하게 되어도, 다음 메시지를 처리하지 못 하게 되는 FIFO이기 때문이다.
 
@@ -143,9 +143,12 @@ DLT에 모인 이른바 dead letter들은 어드민에서 관리자가 별도로
 > [참고자료]  
 > https://medium.com/@sannidhi.s.t/dead-letter-queues-dlqs-in-kafka-afb4b6835309  
 > https://gunju-ko.github.io/kafka/2020/06/17/Dead-Letter-Queue.html  
-> https://blogs.perficient.com/2021/02/15/kafka-consumer-error-handling-retry-and-recovery/  
+> https://blogs.perficient.com/2021/02/15/kafka-consumer-error-handling-retry-and-recovery/   
 
 ---
 
 #### 이전 글
 [[Kafka Case Study] 1편 - Consumer 비즈니스 로직을 변경하기로 한 등등의 사유로, 예전 레코드부터 다시 가져와야 한다면?](/posts/kafka-offset-reset)
+
+#### 다음 글
+[[Kafka Case Study] 3편 - Kafka 메시지가 중복 처리되거나 누락되는 문제가 발생하는 경우](/posts/kafka-message-issue)
