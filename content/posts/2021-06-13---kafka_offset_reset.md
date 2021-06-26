@@ -23,18 +23,22 @@ description: "[Kafka Case Study] 1편 - Consumer 비즈니스 로직을 변경�
 ## Offset Reset(오프셋 리셋)
 kafka 설치경로 내 `bin` 디렉토리에는 `kafka-consumer-groups.sh`가 있으며, 이를 통해 컨슈머 그룹들에 대한 정보를 확인할 수 있는 기본적인 명령어들이 제공된다. 오프셋 리셋도 이를 이용해서 할 수 있다.
 
-```sh
-# 특정 컨슈머 그룹의 offset 상태 확인'만' 하기
+#### 특정 컨슈머 그룹의 offset 상태 확인'만' 하기
+```bash
 kafka-consumer-groups.sh --bootstrap-server <host:port> --group <group_id> --describe
+```
 
-# 특정 컨슈머 그룹의 offset reset을 하면 어떻게 될지 결과만 먼저 출력해보기
+#### 특정 컨슈머 그룹의 offset reset을 하면 어떻게 될지 결과만 먼저 출력해보기
+```bash
 kafka-consumer-groups.sh --bootstrap-server <host:port> --group <group_id> --topic <topic> --reset-offsets --to-earliest --dry-run
+```
 
-# 특정 컨슈머 그룹의 offset reset을 실제로 실행하기
+#### 특정 컨슈머 그룹의 offset reset을 실제로 실행하기
+```bash
 kafka-consumer-groups.sh --bootstrap-server <host:port> --group <group_id> --topic <topic> --reset-offsets --to-earliest --execute
 ```
 
-### 설명
+### 명령어 설명
 - 부트스트랩서버 지정: `--bootstrap-server` 뒤에, 브로커 `host:port` 목록을 입력
 - 컨슈머그룹 지정: `--group` 뒤에, current offset을 변경할 컨슈머 `그룹 id`를 입력
 - 토픽 지정: `--topic` or `--all-topics`
