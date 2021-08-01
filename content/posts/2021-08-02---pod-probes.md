@@ -20,7 +20,7 @@ description: "ReadinessProbe는 Pod가 뜬 다음, 컨테이너 안에 있는 Ap
 - App은 겉보기엔 정상적으로 구동(Running) 중인 상태이지만 그 안에 돌고 있던 서비스가 다운되었을 때 트래픽이 실패(5xx error)될 텐데, 이를 감지하는 역할.
 - 이에 따라 "지속적인" 트래픽 실패를 방지할 수 있게 함
 
-### 참고
+#### 참고
 Pod의 Container에 `ReadinessProbe`, `LivenessProbe`를 설정하게 되는데, 그 때 속성들이 몇 개 있다. 
 아래 셋 중 하나는 꼭 정해야 하는 속성이다.
 
