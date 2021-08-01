@@ -3,7 +3,7 @@ title: Pod - Container, Label, NodeSchedule
 date: "2021-08-02T00:00"
 template: "post"
 draft: false
-slug: "container-label-nodeschedule"
+slug: "pod-container-label-nodeschedule"
 category: "k8s"
 tags:
   - "kubernetes"
@@ -24,7 +24,8 @@ description: "Pod 안에 컨테이너가 있다. Pod에 label을 달면 사용�
   * [참고] 이와 비슷하게, Pod를 띄우기 위해 노드를 지정할 때 node에는 label을, Pod에는 nodeSelector를 붙여 원하는 노드를 셀렉트할 수 있다. 
 
 ## Pod과 Node Schedule
-- Pod을 어느 노드에 띄울 것인지를 노드 스케줄러에서 리소스 등을 보고 결정해준다.
+- resources.requests.memory 에 작성한 메모리를 감안하여 node schedule이 Node별 자원을 보고 적절하게 분배해준다.
+  * Node별로 점수를 매겨서 제일 높은 곳에 할당을 해주는데, 이 점수에 영향을 미치는 게 `남는 자원량`이다.
 
 ---
 
