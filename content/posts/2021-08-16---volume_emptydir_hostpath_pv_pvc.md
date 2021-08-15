@@ -1,5 +1,5 @@
 ---
-title: Volume - emptyDir, hostPath, PV/PVC
+title: k8s - [Volume] emptyDir, hostPath, PV/PVC
 date: "2021-08-16T00:00"
 template: "post"
 draft: false

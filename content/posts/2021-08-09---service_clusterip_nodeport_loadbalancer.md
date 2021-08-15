@@ -1,5 +1,5 @@
 ---
-title: Service - ClusterIP, NodePort, LoadBalancer
+title: k8s - [Service] ClusterIP, NodePort, LoadBalancer
 date: "2021-08-09T00:00"
 template: "post"
 draft: false

@@ -1,5 +1,5 @@
 ---
-title: Pod - ReadinessProbe, LivenessProbe
+title: k8s - [Pod] ReadinessProbe, LivenessProbe
 date: "2021-08-02T02:00"
 template: "post"
 draft: false

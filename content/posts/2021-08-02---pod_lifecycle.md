@@ -1,5 +1,5 @@
 ---
-title: Pod - Lifecycle
+title: k8s - [Pod] Lifecycle
 date: "2021-08-02T01:00"
 template: "post"
 draft: false

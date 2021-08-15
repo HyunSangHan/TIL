@@ -1,5 +1,5 @@
 ---
-title: 컨테이너(Container)란?
+title: k8s - 컨테이너(Container)란?
 date: "2021-07-26T00:00"
 template: "post"
 draft: false

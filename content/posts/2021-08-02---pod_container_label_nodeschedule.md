@@ -1,5 +1,5 @@
 ---
-title: Pod - Container, Label, NodeSchedule
+title: k8s - [Pod] Container, Label, NodeSchedule
 date: "2021-08-02T00:00"
 template: "post"
 draft: false
@@ -26,6 +26,7 @@ description: "Pod 안에 컨테이너가 있다. Pod에 label을 달면 사용�
 ## Pod과 Node Schedule
 - resources.requests.memory 에 작성한 메모리를 감안하여 node schedule이 Node별 자원을 보고 적절하게 분배해준다.
   * Node별로 점수를 매겨서 제일 높은 곳에 할당을 해주는데, 이 점수에 영향을 미치는 게 `남는 자원량`이다.
+- 자세한 내용은 [[Pod] Node Scheduling](/posts/pod-node-scheduling)에서 다룬다.
 
 ---
 

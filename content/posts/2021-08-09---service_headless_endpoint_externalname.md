@@ -1,5 +1,5 @@
 ---
-title: Service - Headless, Endpoint, ExternalName
+title: k8s - [Service] Headless, Endpoint, ExternalName
 date: "2021-08-09T08:00"
 template: "post"
 draft: false

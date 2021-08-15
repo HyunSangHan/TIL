@@ -1,5 +1,5 @@
 ---
-title: Pod - Node Scheduling
+title: k8s - [Pod] Node Scheduling
 date: "2021-08-02T09:00"
 template: "post"
 draft: false
@@ -12,7 +12,7 @@ tags:
 description: "kubelet이 Pod를 실행할 수 있도록, Pod를 할당할 때 어떤 Node가 적합한지 kube-scheduler가 확인하는 것을 말한다."
 ---
 
-`kubelet`이 Pod를 실행할 수 있도록, Pod를 할당할 때 어떤 Node가 적합한지 `kube-scheduler`가 확인하는 것을 말한다.
+[[Pod] Container, Label, NodeSchedule](/posts/pod-container-label-nodeschedule)에서도 잠시 다루었던 Node Schedule은, `kubelet`이 Pod를 실행할 수 있도록 Pod를 할당할 때 **어떤 Node가 적합한지** `kube-scheduler`가 확인하는 것을 말한다.
 `kube-scheduler`는 아래와 같이 두 단계 작업에서 파드에 대한 노드를 선택한다.
 
 1. 필터링
