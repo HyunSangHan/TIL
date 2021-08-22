@@ -9,6 +9,7 @@ tags:
   - "kubernetes"
   - "Infra"
   - "Dev-environment"
+  - "How to use"
 description: "고작 값 몇개 때문에 컨테이너 이미지를 여러벌 관리하기는 부담이 된다. 예컨대 개발환경, 운영환경 등 경우에 따라 변하는 값은 컨테이너 이미지 외부에서 설정할 수 있는데, 그걸 도와주기 위한 오브젝트가 ConfigMap과 Secret이다."
 ---
 
