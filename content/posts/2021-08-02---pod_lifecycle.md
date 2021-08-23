@@ -6,7 +6,7 @@ draft: false
 slug: "pod-lifecycle"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "라이프사이클 단계에 따라 주요 기능들이 밀접한 관련을 맺고 있으므로 Pod의 생명주기를 잘 알아야 한다."

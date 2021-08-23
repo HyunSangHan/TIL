@@ -6,7 +6,7 @@ draft: false
 slug: "pod-container-label-nodeschedule"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "Pod 안에 컨테이너가 있다. Pod에 label을 달면 사용목적을 분리하여, Service에서 selector에 의해 그 Pod를 연결한다."

@@ -6,7 +6,7 @@ draft: false
 slug: "k8s-controller"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "Controller는 Auto-healing, Auto-scaling, Software update, Job 등의 역할을 한다."

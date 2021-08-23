@@ -6,7 +6,7 @@ draft: false
 slug: "pod-node-scheduling"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "kubelet이 Pod를 실행할 수 있도록, Pod를 할당할 때 어떤 Node가 적합한지 kube-scheduler가 확인하는 것을 말한다."

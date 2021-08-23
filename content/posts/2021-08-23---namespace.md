@@ -6,7 +6,7 @@ draft: false
 slug: "k8s-namespace"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "여러 네임스페이스가 쿠버네티스 클러스터의 자원을 공유해서 쓴다. 각 네임스페이스에 리소스 쿼타를 달면 그만큼은 보장된다."

@@ -6,7 +6,7 @@ draft: false
 slug: "configmap-and-secret"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
   - "How to use"

@@ -6,7 +6,7 @@ draft: false
 slug: "pod-probes"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "ReadinessProbe는 Pod가 뜬 다음, 컨테이너 안에 있는 App이 구동(Running)될 때까지 체크한 후에 비로소 트래픽이 가도록 해주고, LivenessProbe는 서비스가 다운되었을 때 트래픽이 실패(5xx error)될 텐데, 이를 감지하여 지속적인 트래픽 실패를 방지해준다."

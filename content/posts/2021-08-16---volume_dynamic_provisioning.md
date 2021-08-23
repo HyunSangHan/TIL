@@ -6,7 +6,7 @@ draft: false
 slug: "volume-dynamic-provisioning"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "동적 프로비저닝(Dynamic Provisioning)은 사용자가 PVC를 만들면 알아서 PV를 만들어주고 volume과 연결해주는 기능이다. StorageClass라는 오브젝트를 만들어두면 동적으로 PV를 생성하기 위해 PVC를 만들 때 사용된다."

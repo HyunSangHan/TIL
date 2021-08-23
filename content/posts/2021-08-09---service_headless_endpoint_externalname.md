@@ -6,7 +6,7 @@ draft: false
 slug: "service-headless-endpoint-externalname"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
   - "Network"

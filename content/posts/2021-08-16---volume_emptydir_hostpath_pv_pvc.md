@@ -6,7 +6,7 @@ draft: false
 slug: "volume-emptydir-hostpath-pv-pvc"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
 description: "컨테이너 파일 시스템은 컨테이너가 살아있는 동안만 존재한다. 따라서 컨테이너가 종료되고 재시작할 때, 파일 시스템 변경사항이 손실된다. 컨테이너와 독립적이며, 보다 일관된 스토리지를 위해 사용자는 볼륨을 사용할 수 있다."

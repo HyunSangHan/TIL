@@ -6,7 +6,7 @@ draft: false
 slug: "container-vs-vm"
 category: "k8s"
 tags:
-  - "kubernetes"
+  - "Kubernetes"
   - "Infra"
   - "Dev-environment"
   - "Comparison"
