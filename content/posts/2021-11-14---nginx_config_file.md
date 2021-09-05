@@ -9,6 +9,7 @@ tags:
   - "Nginx"
   - "Web"
   - "Network"
+  - "Dev-environment"
   - "How to use"
 description: "Nginx 모듈의 동작은 nginx.conf 파일에 있는 directives(지시어)에 의해 제어되는데, directive는 simple directive와 block directive 두 가지 종류가 있다."
 ---

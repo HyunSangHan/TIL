@@ -11,7 +11,6 @@ tags:
   - "Java"
   - "Comparison"
   - "Performance"
-
 description: "원시타입(primitive type)과 참조타입(reference type)의 차이를 통해 long과 Long의 차이를 알아본다."
 ---
 

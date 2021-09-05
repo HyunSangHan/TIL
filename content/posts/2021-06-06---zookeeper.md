@@ -9,6 +9,7 @@ tags:
   - "Zookeeper"
   - "Kafka"
   - "Apache"
+  - "Dev-environment"
 description: "분산 코디네이션 서비스를 제공하는 오픈소스 프로젝트이다."
 ---
 
