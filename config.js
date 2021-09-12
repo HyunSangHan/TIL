@@ -31,7 +31,7 @@ module.exports = {
   author: {
     name: 'Hyunsang Han',
     photo: '/photo.jpg',
-    bio: 'Frontend developer who was product manager',
+    bio: 'Software engineer who was product manager',
     contacts: {
       email: 'gustkd3@gmail.com',
       facebook: 'gustkd3',
@@ -41,7 +41,7 @@ module.exports = {
       rss: '',
       vkontakte: '',
       linkedin: '현상-한-971604178',
-      instagram: 'phenom_0901',
+      instagram: 'phenomenon_kr',
       line: 'gustkd3',
       gitlab: '',
       weibo: '',
