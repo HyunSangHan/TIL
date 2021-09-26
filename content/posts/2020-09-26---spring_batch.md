@@ -3,7 +3,7 @@ title: 스프링 배치(Spring Batch)
 date: "2020-09-26T21:04"
 template: "post"
 draft: false
-slug: "type"
+slug: "spring-batch"
 category: "Spring"
 tags:
   - "Spring"
