@@ -176,9 +176,9 @@ public class BatchConfig {
 ---
 
 > [참고자료]  
-> https://medium.com/myrealtrip-product/spring-batch-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-3c6a5db0646d
-> https://cheese10yun.github.io/spring-batch-basic/
-> https://deeplify.dev/back-end/spring/batch-tutorial
-> https://deeplify.dev/back-end/spring/batch-architecture-and-components
-> https://jojoldu.tistory.com/330
+> https://medium.com/myrealtrip-product/spring-batch-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-3c6a5db0646d  
+> https://cheese10yun.github.io/spring-batch-basic/  
+> https://deeplify.dev/back-end/spring/batch-tutorial  
+> https://deeplify.dev/back-end/spring/batch-architecture-and-components  
+> https://jojoldu.tistory.com/330  
 > https://sejoung.github.io/2018/07/2018-07-09-Chunk_and_Tasklet/  
