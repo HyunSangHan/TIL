@@ -27,7 +27,7 @@ description: "배치는 '일괄 처리'라고 해석할 수 있으며, 실시간
     - 그러므로 처리 시간이 많이 걸리는 작업을 시작하기 전에 메모리 재할당에 소모되는 시간을 피하기 위해 충분한 메모리를 할당하기를 권장
 
 # Spring Batch의 일반적인 개념도
-![spring batch scenario](/media/spring-batch-scenario.jpeg)
+![spring batch scenario](/media/spring_batch_scenario.jpeg)
 1. 읽기(read) : 데이터 저장소(일반적으로 데이터베이스)에서 특정 데이터 레코드를 읽는다.
 2. 처리(processing) : 원하는 방식으로 데이터 가공/처리 한다.
 3. 쓰기(write) : 수정된 데이터를 다시 저장소(데이터베이스)에 저장한다.
@@ -41,7 +41,7 @@ Chunk-oriented processing이라면 `ItemReader+ItemProcessor+ItemWriter`처럼 �
 `Job`과 `Step`은 1:M 관계이고 `Step`과 `ItemReader+ItemProcessor+ItemWriter`은 1:1 관계이다.
 하나의 큰 일감(`Job`)에 여러 단계(`Step`)을 두는 거라고 이해하면 된다.
 
-![Batch object relationship](/media/batch-object-relationship.png)
+![Batch object relationship](/media/batch_object_relationship.png)
 
 #### Job
 - 배치 처리 과정을 하나의 단위로 만들어 표현한 객체이고 여러 Step 인스턴스를 포함하는 컨테이너. 한 번에 실행되기를 의도하는 작업의 집합이다.
