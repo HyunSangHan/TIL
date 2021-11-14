@@ -55,7 +55,7 @@ _[Kafka - (7) Offset Commit](/posts/kafka-offset-commit)_ 에서 이미 카프�
 ![kafka consume lost](/media/kafka_consume_lost.png)
 
 ## [참고] 리밸런스가 발생하는 요인
-- _[Kafka - (7) Offset Commit](/posts/kafka-offset-commit)_ 에 기록되어 있으므로 생략한다.  
+- _[Kafka - (6) Offset과 Consumer Group, 그리고 Lag](/posts/kafka-offset)_ 에 기록되어 있으므로 생략한다.  
   
   
 > [참고자료]  
