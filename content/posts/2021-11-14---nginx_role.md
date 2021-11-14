@@ -130,14 +130,17 @@ server {
 add_header Cache-Control "public";
 ```
 
----
-
 > [참고자료]  
 > https://phsun102.tistory.com/47  
 > https://real-dongsoo7.tistory.com/100  
 > https://hyeo-noo.tistory.com/205  
 > https://developer88.tistory.com/299  
   
+---
 
 #### 이전 글
 [(1) 웹서버란? 그리고, Nginx vs Apache](/posts/nginx-vs-apache)  
+
+#### 다음 글
+[(3) nginx.conf 파일 구성](/posts/nginx-config-file)  
+  
