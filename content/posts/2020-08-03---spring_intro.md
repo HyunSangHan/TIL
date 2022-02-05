@@ -1,5 +1,5 @@
 ---
-title: 스프링 입문
+title: 스프링(Spring) 입문
 date: "2020-08-03T00:00"
 template: "post"
 draft: false

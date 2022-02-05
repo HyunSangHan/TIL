@@ -11,7 +11,7 @@ tags:
   - "Network"
   - "How to use"
   - "Case study"
-description: "pringboot에서 request.getRemoteAddress()를 호출하여 client ip를 얻으려 할 때 127.0.0.1 이 찍히는 문제가 있다면, X-Forwarded-For를 통해 실제 client ip를 얻을 수 있다."
+description: "Springboot에서 request.getRemoteAddress()를 호출하여 client ip를 얻으려 할 때 127.0.0.1 이 찍히는 문제가 있다면, X-Forwarded-For를 통해 실제 client ip를 얻을 수 있다."
 ---
 
 ## X-Forwarded-For
