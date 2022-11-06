@@ -35,6 +35,7 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5838174320346482" crossorigin="anonymous"></script>
       </Helmet>
       {children}
     </div>

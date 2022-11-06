@@ -9,6 +9,7 @@ module.exports = {
   disqusShortname: 'tillog',
   postsPerPage: 8,
   googleAnalyticsId: 'UA-156691440-1',
+  googleAdSenseAccountId: 'pub-5838174320346482',
   useKatex: false,
   menu: [
     {
