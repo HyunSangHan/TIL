@@ -9,7 +9,7 @@ tags:
   - "Kubernetes"
   - "Infra"
   - "Dev-environment"
-  - "Comparsion"
+  - "Comparison"
 description: "HPA로 가장 많이 사용되는, 오토스케일러는 HPA, VPA, CA가 있다."
 ---
 

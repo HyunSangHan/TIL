@@ -9,7 +9,7 @@ tags:
   - "Kubernetes"
   - "Infra"
   - "Dev-environment"
-  - "Comparsion"
+  - "Comparison"
 description: "Stateless vs Stateful 의 개념부터 알아보고, k8s 내에서 각각에 해당하는 ReplicaSet과 StatefulSet에 대해 이어서 알아본다."
 ---
 
