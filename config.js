@@ -31,7 +31,7 @@ module.exports = {
   ],
   author: {
     name: 'Hyunsang Han',
-    photo: '/photo.jpg',
+    photo: '/photo4.jpg',
     bio: 'Software engineer who was product manager',
     contacts: {
       email: 'gustkd3@gmail.com',
